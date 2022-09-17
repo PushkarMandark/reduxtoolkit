@@ -1,0 +1,39 @@
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: aquamarine;
+  margin: 20px 0px;
+}
+
+ul > li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 21px;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav__cart {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.navLink {
+  font-weight: 400;
+  font-size: 21px;
+}
+.active {
+  text-decoration: underline;
+  font-weight: bold;
+  text-underline-position: under;
+  color: black;
+}
